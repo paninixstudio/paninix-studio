@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html class="dark" lang="en" style="">
   <head>
@@ -147,11 +147,7 @@
       }
 
       .material-symbols-outlined {
-        font-variation-settings:
-          'FILL' 0,
-          'wght' 300,
-          'GRAD' 0,
-          'opsz' 24;
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
       }
 
       .clipped-corner {
@@ -296,7 +292,7 @@
     <div id="hud-spotlight"></div>
     <!-- NAVIGATION SHELL -->
     <nav
-      class="fixed top-0 w-full z-50 flex justify-between items-center px-margin-desktop h-16 bg-background/90 backdrop-blur-md border-b border-surface-variant"
+      class="fixed top-0 w-full z-50 flex justify-between items-center px-5 md:px-10 h-16 bg-background/90 backdrop-blur-md border-b border-surface-variant"
     >
       <div class="flex items-center gap-4">
         <img
@@ -305,7 +301,7 @@
           src="data:image/png;base64,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"
         />
         <span
-          class="text-2xl font-label-caps font-bold tracking-tighter"
+          class="text-lg md:text-2xl font-label-caps font-bold tracking-tighter"
           style="color: #d4ff00"
           >PANINIX STUDIO</span
         >
@@ -347,20 +343,24 @@
         </a>
       </div>
       <a
-        class="btn-glitch clipped-corner bg-primary-container text-on-primary-fixed font-label-caps px-6 py-2 text-xs font-bold active:scale-95 transition-transform duration-100 display: inline-block"
+        class="btn-glitch clipped-corner bg-primary-container text-on-primary-fixed font-label-caps px-3 py-2 md:px-6 text-xs font-bold active:scale-95 transition-transform duration-100 display: inline-block"
         href="#contact"
       >
-        GET A ESTIMATE
+        <span class="hidden sm:inline"> GET A ESTIMATE </span>
+
+        <span class="sm:hidden"> ESTIMATE </span>
       </a>
     </nav>
     <main class="pt-16">
       <!-- HERO SECTION -->
       <section
-        class="relative min-h-[90vh] flex flex-col justify-center px-margin-desktop overflow-hidden dot-grid"
+        class="relative min-h-[90vh] flex flex-col justify-center pt-5 md:pt-0 px-5 md:px-10 overflow-hidden dot-grid"
         id="home"
       >
         <div class="grid grid-cols-12 gap-gutter items-center">
-          <div class="reveal col-span-12 lg:col-span-7 space-y-8 z-10">
+          <div
+            class="reveal col-span-12 lg:col-span-7 space-y-5 md:space-y-8 z-10"
+          >
             <div class="flex items-center gap-2">
               <span
                 class="w-2 h-2 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#caf300]"
@@ -370,27 +370,29 @@
                 >SYSTEM STATUS: OPERATIONAL</span
               >
             </div>
-            <h1 class="font-display-lg text-display-lg max-w-2xl leading-none">
+            <h1
+              class="font-display-lg text-[42px] sm:text-[52px] lg:text-display-lg leading-[0.95] tracking-tight max-w-xl"
+            >
               WE BUILD
               <span class="text-primary-container">HIGH-PERFORMANCE</span> APPS
               &amp; WEB SOLUTIONS THAT SCALE.
             </h1>
             <p
-              class="text-body-md text-on-secondary-container max-w-lg border-l border-primary-container pl-4"
+              class="text-sm md:text-base text-on-secondary-container max-w-md border-l border-primary-container pl-4 leading-7"
             >
               Engineering digital infrastructure with mathematical precision.
               Our methodologies prioritize technical integrity, structural
               clarity, and aggressive performance benchmarks.
             </p>
-            <div class="flex flex-wrap gap-4 pt-4">
+            <div class="flex flex-col sm:flex-row gap-4 pt-6">
               <a
-                class="btn-glitch clipped-corner bg-primary-container text-on-primary-fixed font-label-caps px-8 py-4 text-sm font-bold"
                 href="#contact"
+                class="btn-glitch clipped-corner bg-primary-container text-on-primary-fixed font-label-caps px-6 py-3 md:px-8 md:py-4 text-sm font-bold flex items-center justify-center text-center w-full sm:w-auto"
               >
                 SCHEDULE CONSULTATION
               </a>
               <button
-                class="btn-glitch border border-surface-variant font-label-caps px-8 py-4 text-sm font-bold hover:border-primary-container transition-colors"
+                class="btn-glitch border border-surface-variant font-label-caps px-6 py-3 md:px-8 md:py-4 text-sm font-bold hover:border-primary-container transition-colors"
               >
                 VIEW WORK
               </button>
@@ -473,12 +475,13 @@
         id="services"
       >
         <div
-          class="reveal px-margin-desktop pt-24 pb-12 flex justify-between items-end border-b border-surface-variant"
+          class="reveal px-5 md:px-10 pt-24 pb-12 flex flex-col md:flex-row md:justify-between md:items-end gap-2 md:gap-0 border-b border-surface-variant"
         >
           <h2 class="font-headline-lg text-headline-lg">SERVICES</h2>
-          <span class="text-label-caps font-label-caps text-secondary"
-            >[CAPABILITIES: 001-004]</span
-          >
+
+          <span class="text-label-caps font-label-caps text-secondary">
+            [CAPABILITIES: 001-004]
+          </span>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <!-- Card 1 -->
@@ -597,7 +600,7 @@
       </section>
       <!-- ARCHITECTURAL STANDARDS (TELEMETRY) -->
       <section
-        class="py-24 px-margin-desktop grid grid-cols-12 gap-gutter overflow-hidden"
+        class="py-24 px-5 md:px-10 grid grid-cols-12 gap-gutter overflow-hidden"
       >
         <div class="reveal col-span-12 lg:col-span-5 space-y-8 active">
           <div class="flex flex-wrap gap-2">
@@ -628,16 +631,17 @@
             build with clear layouts and clean file structures so your platform
             stays easy to update as your business grows.
           </p>
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols-2 gap-3">
             <div
               class="p-4 bg-surface border border-surface-variant hover:border-primary-container transition-colors"
             >
-              <p
-                class="text-[10px] font-label-caps text-primary-container mb-1"
-              >
-                LAUNCH SPEED
-              </p>
-              <p class="font-metric-lg text-metric-lg">2X FASTER</p>
+              <div class="text-[10px] uppercase text-primary-container">
+                Launch Speed
+              </div>
+
+              <div class="text-4xl sm:text-4xl font-bold leading-none">2X</div>
+
+              <div class="text-xl sm:text-2xl font-bold">FASTER</div>
             </div>
             <div
               class="p-4 bg-surface border border-surface-variant hover:border-primary-container transition-colors"
@@ -718,7 +722,7 @@
         id="domains"
       >
         <div
-          class="reveal px-margin-desktop mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-4"
+          class="reveal px-5 md:px-10 mb-12 flex flex-col md:flex-row justify-between items-start md:items-end gap-4"
         >
           <div>
             <span
@@ -896,7 +900,7 @@
         </div>
       </section>
       <!-- SYSTEM LOGS -->
-      <section class="py-24 px-margin-desktop overflow-hidden" id="blog">
+      <section class="py-24 px-5 md:px-10 overflow-hidden" id="blog">
         <div
           class="reveal flex justify-between items-center mb-12 border-b border-surface-variant pb-4"
         >
@@ -982,7 +986,7 @@
         id="contact"
       >
         <div
-          class="reveal px-margin-desktop grid grid-cols-12 gap-gutter items-center relative z-10"
+          class="reveal px-5 md:px-10 grid grid-cols-12 gap-gutter items-center relative z-10"
         >
           <div class="col-span-12 lg:col-span-4">
             <h2 class="font-display-lg text-headline-lg mb-4">
@@ -1035,14 +1039,16 @@
               </div>
               <div class="reveal delay-400 col-span-2">
                 <button
-                  class="btn-glitch w-full bg-primary-container text-on-primary-fixed py-6 font-label-caps font-bold text-lg clipped-corner active:scale-[0.99] transition-transform flex items-center justify-center gap-2"
+                  class="btn-glitch w-full bg-primary-container text-on-primary-fixed py-4 md:py-6 px-4 font-label-caps font-bold text-base md:text-lg tracking-wide clipped-corner active:scale-[0.99] transition-transform flex items-center justify-center gap-2"
                   type="submit"
                 >
-                  SEND MESSAGE
+                  <span>SEND MESSAGE</span>
+
                   <span
-                    class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
-                    >arrow_forward</span
+                    class="material-symbols-outlined text-[20px] md:text-[24px] transition-transform"
                   >
+                    arrow_forward
+                  </span>
                 </button>
               </div>
             </form>
@@ -1058,17 +1064,17 @@
     </main>
     <!-- FOOTER SHELL -->
     <footer
-      class="w-full px-margin-desktop py-12 flex flex-col md:flex-row justify-between items-start border-t border-surface-variant bg-surface"
+      class="w-full px-5 md:px-10 py-12 flex flex-col md:flex-row justify-between items-start border-t border-surface-variant bg-surface"
     >
       <div class="col-span-12 md:col-span-4 mb-8 md:mb-0">
         <div class="flex items-center gap-3 mb-6">
           <img
             alt="Paninix Studio"
-            class="h-12 w-12 object-contain"
+            class="h-8 w-8 md:h-12 md:w-12 object-contain"
             src="data:image/png;base64,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"
           />
           <span
-            class="text-2xl font-label-caps font-bold"
+            class="text-lg md:text-2xl font-label-caps font-bold"
             style="color: #d4ff00"
             >PANINIX STUDIO</span
           >
